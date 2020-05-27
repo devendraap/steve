@@ -116,7 +116,7 @@
                         <exclude>**/*.sql</exclude>
                         <exclude>**/*.html</exclude>
                         <exclude>**/*.css</exclude>
-                        <exclude>**/*.js</exclude>
+                        <exclude>**/*</exclude>
                         <!-- <exclude>**/*.jsp</exclude> -->
 
                     </excludes>
