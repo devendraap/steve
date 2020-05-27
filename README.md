@@ -143,13 +143,18 @@ See the [FAQ](https://github.com/RWTH-i5-IDSG/steve/wiki/FAQ)
 
 # Ubuntu Setup
 
+## MySQL Setup
+```
 cd ~
 sudo apt-get update
 sudo apt -y install mysql-server --fix-missing
 
 sudo mysql
+```
 
--- MySQL command ---	
+
+## MySQL DB command 	
+```
 DROP USER 'steve'@'%';
 CREATE USER 'steve'@'%' IDENTIFIED BY 'steve';
 
@@ -160,10 +165,11 @@ CREATE DATABASE steve;
 
 GRANT ALL PRIVILEGES ON *.* TO steve WITH GRANT OPTION;
 FLUSH PRIVILEGES;
+```
 
--------------------------------
-# verify mysql -u steve -p steve
 
+## STEVE: build and run 
+```
 sudo apt-get -y install openjdk-11-jdk
 sudo update-java-alternatives --set /usr/lib/jvm/java-1.11.0-openjdk-amd64
 export JAVA_HOME="/usr/lib/jvm/java-1.11.0-openjdk-amd64"
@@ -173,6 +179,7 @@ sudo apt -y install maven
 
 git clone https://github.com/devendraap/steve
 cd steve
-mvn install
+mvn install -Pprod
 
-java -jar ~/steve/target/steve.jar &
+java -jar ~/steve/target/steve.jar
+```
