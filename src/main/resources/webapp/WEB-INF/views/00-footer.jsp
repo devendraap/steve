@@ -19,7 +19,7 @@
 
 --%>
 </div></div>
-<div class="footer">
+<div class="">
 </div>
 </body>
 </html>
