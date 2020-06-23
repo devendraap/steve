@@ -50,4 +50,3 @@
 
     </form:form>
 </div></div>
-<%@ include file="../00-footer.jsp" %>
