@@ -52,4 +52,3 @@ Connection Status for JSON Charge Points
         </tbody>
     </table>
 </div></div>
-<%@ include file="00-footer.jsp" %>
