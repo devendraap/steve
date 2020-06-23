@@ -55,4 +55,3 @@
         </table>
     </div>
 </div>
-<%@ include file="../00-footer.jsp" %>
