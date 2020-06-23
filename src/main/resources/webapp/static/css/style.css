@@ -187,7 +187,6 @@ textarea {
 /*************** top menu navigation div ***************/
 ul.navigation {
     font-weight: 500;
-    font-family: 'Source Sans Pro';
 	letter-spacing: 0.5px;
     color: #000;
 	margin:0;
@@ -444,7 +443,7 @@ table.res th.sorting-asc, table.res th.sorting-desc {
 }
 input, select, textarea {
 	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;a
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 .inline {
