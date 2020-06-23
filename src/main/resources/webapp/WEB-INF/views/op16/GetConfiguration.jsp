@@ -49,4 +49,3 @@
 <div class="op16-content">
 	<%@ include file="../op-forms/GetConfigurationForm.jsp" %>
 </div></div>
-<%@ include file="../00-footer.jsp" %>
