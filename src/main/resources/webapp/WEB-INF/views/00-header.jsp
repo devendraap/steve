@@ -44,7 +44,7 @@
 <div class="main">
     <div class="top-banner">
         <div class="container">
-            <a href="${ctxPath}/manager/home"><img src="${ctxPath}/static/images/logo2.png" height="55" style="padding-top: 10px;"></a>
+            <a href="${ctxPath}/manager/home"><img src="${ctxPath}/static/images/logo2.png" height="50" style="padding-top: 40px;"></a>
         </div>
     </div>
     <div class="top-menu">
