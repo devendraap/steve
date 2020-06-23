@@ -87,4 +87,3 @@
 		</span>
 	</a>
 </div></div>
-<%@ include file="00-footer.jsp" %>
