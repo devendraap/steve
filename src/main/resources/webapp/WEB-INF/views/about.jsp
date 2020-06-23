@@ -48,4 +48,3 @@
     </tr>
     </table>
 </div>
-<%@ include file="00-footer.jsp" %>
