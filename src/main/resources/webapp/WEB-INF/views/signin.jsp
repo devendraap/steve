@@ -50,4 +50,3 @@
             <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
         </form>
     </div>
-<%@ include file="00-footer.jsp" %>
