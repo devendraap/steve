@@ -9,7 +9,8 @@ a:link, a:visited {color: #000; text-decoration: underline}
 a:hover, a:active {color: #af6021; text-decoration: underline}
 
 body {
-	font-family: Verdana, sans-serif;
+    font-family: 'Roboto', 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	letter-spacing: 0.5px;
 	font-size: 12px;
 	background: #e0e6e9;
 	padding: 0;
@@ -185,7 +186,10 @@ textarea {
 .add-margin-bottom { margin-bottom: 20px; }
 /*************** top menu navigation div ***************/
 ul.navigation {
-	color: #ccc;
+    font-weight: 500;
+    font-family: 'Source Sans Pro';
+	letter-spacing: 0.5px;
+    color: #000;
 	margin:0;
 	position:relative;
 	float:right;
@@ -206,8 +210,8 @@ ul.navigation li a {
 	display:inline-block;
 	cursor: pointer;
 }
-ul.navigation li a:link, ul.navigation li a:visited { color:#CCC; }
-ul.navigation li a:hover, ul.navigation li a:active { color:#fff; }
+ul.navigation li a:link, ul.navigation li a:visited { color:#000; }
+ul.navigation li a:hover, ul.navigation li a:active { color:#000; }
 ul.navigation li:hover > ul {
 	visibility:visible;
 	opacity:1;
@@ -223,7 +227,7 @@ ul.navigation ul {
     text-align: center;
 }
 ul.navigation ul li {
-	background:#000;
+    background:#fff;
 	width:100%;
 }
 ul.navigation ul li a {
@@ -296,12 +300,12 @@ ul.navigation ul li a {
 	width: 100%;
 	height: 80px;
 	border-radius: 0;
-	background: #71797d;
+    background: #fff;
 }
 .top-menu {
 	height: 35px;
 	border-radius: 0;
-	background: #000;
+    background: #fff;
 }
 .container {
 	width: 80%;
@@ -431,7 +435,7 @@ span.base {
 }
 span.formatNumber {
 	font-size: 18px;
-	color: #a36b83;
+    color: #05CE78;
 	font-weight: bold;
 }
 table.res th.sorting-asc, table.res th.sorting-desc {
@@ -440,7 +444,7 @@ table.res th.sorting-asc, table.res th.sorting-desc {
 }
 input, select, textarea {
 	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+	-moz-box-sizing: border-box;a
 	box-sizing: border-box;
 }
 .inline {
