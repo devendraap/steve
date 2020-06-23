@@ -54,4 +54,3 @@
 <div class="op16-content">
 	<%@ include file="../op-forms/UnlockConnectorForm.jsp" %>
 </div></div>
-<%@ include file="../00-footer.jsp" %>
